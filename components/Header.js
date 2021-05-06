@@ -1,9 +1,9 @@
-import React, { Component } from "react";
+import React from "react";
 import { Menu } from "semantic-ui-react";
 
 const Header = () => {
   return (
-    <Menu>
+    <Menu style={{ marginTop: "15px" }}>
       <Menu.Item>BlockStarter</Menu.Item>
       <Menu.Menu position="right">
         <Menu.Item>Campaigns</Menu.Item>
