@@ -1,5 +1,14 @@
 import React from "react";
+import Layout from "../../components/Layout";
 
-export default () => {
-  return <h1>show page</h1>;
-};
+class CampaignShow extends React.Component {
+  render() {
+    return (
+      <Layout>
+        <h3>Show Page</h3>
+      </Layout>
+    );
+  }
+}
+
+export default CampaignShow;
